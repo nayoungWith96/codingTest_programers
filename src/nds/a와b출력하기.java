@@ -1,8 +1,10 @@
 package nds;
 
-import java.util.Scanner; /**
+import java.util.Scanner;
+
+/**
  * packageName    : nds
- * fileName       : 문자열
+ * fileName       : a와b출력하기
  * author         : ehdtka
  * date           : 2024-08-20
  * description    :
@@ -11,13 +13,13 @@ import java.util.Scanner; /**
  * -----------------------------------------------------------
  * 2024-08-20        ehdtka       최초 생성
  */
-public class 문자열출력하기 {
+public class a와b출력하기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String a = sc.next();
-        System.out.printf(a);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println("a = "+ a);
+        System.out.println("b = "+ b);
     }
 }
-
-
-
