@@ -1,7 +1,6 @@
-package nds;
+package nds._20240821;
 
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 /**
  * packageName    : nds

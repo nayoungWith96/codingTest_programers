@@ -1,6 +1,4 @@
-package YNY;
-
-import java.util.Scanner;
+package yny._20240821;
 
 /**
  * packageName    : YNY
