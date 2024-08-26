@@ -22,4 +22,3 @@ public class 문자열붙여서출력하기 {
         System.out.println(a+b);
     }
 }
-기
