@@ -1,10 +1,10 @@
-package nds;
+package nds._20240822;
 
 import java.util.Scanner;
 
 /**
  * packageName    : nds
- * fileName       : 문자열돌리기
+ * fileName       : 홀짝구분하기
  * author         : ehdtka
  * date           : 2024-08-22
  * description    :
@@ -13,14 +13,16 @@ import java.util.Scanner;
  * -----------------------------------------------------------
  * 2024-08-22        ehdtka       최초 생성
  */
-public class 문자열돌리기 {
+public class 홀짝구분하기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String a = sc.next();
+        int n = sc.nextInt();
 
-        if (a.length() >= 1 && a.length() <= 10) {
-            for (int i = 0; i < a.length(); i++) {
-                System.out.println(a.substring(i, i+1));
+        if (n >= 1 && n <= 1000) {
+            if (n % 2 == 0) {
+                System.out.println(n + " is even");
+            } else {
+                System.out.println(n + " is odd");
             }
         }
     }

@@ -1,4 +1,4 @@
-package nds;
+package nds._20240823;
 
 import java.util.Scanner;
 

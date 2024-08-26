@@ -1,6 +1,4 @@
-package nds;
-
-import java.util.Scanner;
+package nds._20240823;
 
 /**
  * packageName    : nds

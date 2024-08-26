@@ -1,10 +1,10 @@
-package nds;
+package yny._20240820;
 
 import java.util.Scanner;
 
 /**
  * packageName    : nds
- * fileName       : a와b출력하기
+ * fileName       : 문자열반복해서출력하기
  * author         : ehdtka
  * date           : 2024-08-20
  * description    :
@@ -13,13 +13,13 @@ import java.util.Scanner;
  * -----------------------------------------------------------
  * 2024-08-20        ehdtka       최초 생성
  */
-public class a와b출력하기 {
+public class 문자열반복해서출력하기2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        System.out.println("a = "+ a);
-        System.out.println("b = "+ b);
+        String str = sc.next();
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            System.out.print(str);
+        }
     }
 }

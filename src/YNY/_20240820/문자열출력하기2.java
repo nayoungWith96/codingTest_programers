@@ -1,4 +1,4 @@
-package YNY;
+package yny._20240820;
 
 import java.util.Scanner; /**
  * packageName    : nds

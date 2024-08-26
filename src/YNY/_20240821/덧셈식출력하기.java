@@ -1,25 +1,25 @@
-package YNY;
+package yny._20240821;
 
 import java.util.Scanner;
 
 /**
  * packageName    : YNY
- * fileName       : 문자열돌리
+ * fileName       : 덧셈식출력하
  * author         : User
- * date           : 2024-08-24
+ * date           : 2024-08-21
  * description    :
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------
- * 2024-08-24        User       최초 생성
+ * 2024-08-21        User       최초 생성
  */
-public class 문자열돌리기 {
+public class 덧셈식출력하기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String a = sc.next();
-        int n = a.length();
-        for(int i=0; i<n; i++){
-            System.out.println(a.charAt(i)); //문자열에서 문자의 순서를 나타내는 것
-        }
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = a + b;
+        System.out.println(a + " + " + b + " = " + (a + b));
+
     }
 }
