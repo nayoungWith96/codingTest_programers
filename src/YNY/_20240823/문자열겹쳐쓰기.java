@@ -1,4 +1,4 @@
-package YNY;
+package YNY._20240823;
 
 /**
  * packageName    : YNY
