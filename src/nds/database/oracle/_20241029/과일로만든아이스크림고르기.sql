@@ -67,7 +67,7 @@ VALUES ('pineapple','fruit_based');
 
 -- SELECT 문제
 /*
- * 상반기 아이스크림 총주문량이 3,000보다 높은 
+ * 상반기 아이스크림 총주문량이 3,000보다 높은
  * 아이스크림 맛은 chocolate, strawberry, melon, white_chocolate입니다. 
  * 이 중에 아이스크림의 주 성분이 과일인 아이스크림 맛은 strawberry와 melon이고 
  * 총주문량이 큰 순서대로 아이스크림 맛을 조회하면 melon, strawberry 순으로 조회되어야 합니다. 
